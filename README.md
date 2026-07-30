@@ -1,62 +1,83 @@
-# 🧬 Virtual Cell – Interactive Bio-Simulator
+# Virtual Cell
 
-## Overview
-Virtual Cell is an interactive bio-simulation platform that enables students and researchers to study the behavior of normal and cancer cells under different biological conditions through real-time simulation.
+## About the Project
 
-Instead of performing expensive laboratory experiments, users can modify environmental conditions, apply treatments, and observe how a virtual cell responds instantly.
+Virtual Cell is an interactive bio-simulation platform that acts as a virtual laboratory for researchers and students. It simulates the behavior of normal and cancer cells under different biological conditions such as oxygen level, glucose concentration, pH, temperature, radiation exposure, viral infection, gene editing, and drug treatments.
 
----
-
-## Core Features
-
-- Environment Controls (Oxygen, Glucose, pH, Temperature)
-- Radiation & Viral Infection Simulation
-- Normal / Cancer Cell Selection
-- Biological Age Profile
-- Real-Time Simulation Engine
-- Live Cell Visualization
-- ATP, Health, Mutation & ROS Monitoring
-- Automatic Lab Report
+The platform helps reduce laboratory cost and time by allowing users to test hypotheses virtually before performing real experiments.
 
 ---
 
-## Advanced Features
+## Frameworks & Technologies
 
-- CRISPR P53 Knockout
-- Drug Simulation & Drug Resistance
-- AI Insights (Claude API)
-- CSV Export
-- Cost & Time Saving Tracker
-- Cell vs T-Cell Battle
-- Immunotherapy Simulation
-- Biological Timeline & Replay
-- Before & After Comparison
-- Comparative Analysis
-
----
-
-## Technology Stack
-
+### Frontend
 - React.js
+- Vite
+- Recharts
+- CSS
+
+### Backend
 - Node.js
+- Express.js
+
+### AI
 - Claude API
-- Chart.js / Recharts
 
 ---
 
-## Target Users
+## Project Structure
+Virtual-Cell
+│
+├── frontend
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── hooks
+│   │   ├── services
+│   │   ├── utils
+│   │   └── App.jsx
+│   └── package.json
+│
+├── backend
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── middleware
+│   ├── services
+│   ├── utils
+│   ├── server.js
+│   └── package.json
+│
+├── docs
+│
+└── README.md---
 
-- Biology Researchers
-- Medical Students
-- Pharmacy Students
-- Universities
-- Research Centers
+## Main Features
+
+- Cell Simulation
+- Microenvironment Control
+- Disease Simulation
+- Drug Response
+- Gene Editing (CRISPR)
+- Cell Interaction
+- Biological Timeline
+- Comparative Analysis
+- AI Insights
+- Charts & Visualization
+- Reports
+- Export CSV/PDF
+- Cost Saving Tracker
 
 ---
 
-## Future Scope
+## How to Run
 
-- PDF Export
-- User Accounts
-- Cloud Database
-- Multi-cell Simulation
+### Frontend
+cd frontend
+npm install
+npm run dev### Backend
+cd backend
+npm install
+npm run dev---
+
