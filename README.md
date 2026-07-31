@@ -4,12 +4,6 @@
 
 **A browser-based Digital Twin of a human cell — simulate, visualize, and understand cell biology in real time. No install. No code. No lab required.**
 
-[![Status](https://img.shields.io/badge/status-active%20prototype-4FD1C5)](#-project-status)
-[![Phase](https://img.shields.io/badge/RedDev-Phase%202-F2B33D)](#-project-status)
-[![Frontend](https://img.shields.io/badge/frontend-React-61DAFB)](#-tech-stack)
-[![AI](https://img.shields.io/badge/AI-Claude%20API-9B8AFB)](#-tech-stack)
-[![License](https://img.shields.io/badge/license-TBD-lightgrey)](#-license)
-
 ---
 
 ## 📖 Table of Contents
