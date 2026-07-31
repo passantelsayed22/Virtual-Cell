@@ -19,15 +19,9 @@
 - [Key Features](#-key-features)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
-- [Documentation Repository](#-documentation-repository)
 - [How to Run](#-how-to-run)
-- [Screens & Diagrams](#-screens--diagrams)
 - [Roadmap](#-roadmap)
 - [Known Limitations](#-known-limitations)
-- [Project Status](#-project-status)
-- [Contributing](#-contributing)
-- [Team](#-team)
-- [License](#-license)
 
 ---
 
@@ -139,56 +133,6 @@ virtual-cell/
 
 ---
 
-## 📚 Documentation Repository
-
-All project documentation lives in Google Drive, organized into four folders. This structure stays fixed across phases — only the **Deliverables** subfolder changes per phase:
-
-```
-📂 Google Drive — Virtual Cell
-│
-├── 📂 Research/              # Every paper/resource cited to justify a mechanic
-│   └── (8+ papers: ATP & mitochondria, hypoxia & oxygen, drug resistance &
-│        immunotherapy, apoptosis & DNA repair, ROS & oxidative stress,
-│        p53 tumor suppression, pH/Warburg/CRISPR, Key Statistics)
-│
-├── 📂 Business/               # Strategy, market, and business-model analysis
-│   └── (Problem Statement, Value Proposition Canvas, Business Model Canvas,
-│        Go-to-Market & Defensibility Strategy, Competitor Analysis, SWOT,
-│        Risk Analysis, Pricing & Unit Economics, Executive Summary)
-│
-├── 📂 Technical/               # Architecture, technical references, diagrams
-│   └── (System Architecture, Main Modules, Database Draft,
-│        Tech Stack Justification)
-│
-└── 📂 Phase 2 Deliverables/    # ⭐ Current phase's required tasks ONLY
-    └── (Clearly labeled per task — see convention below)
-```
-
-**Labeling convention for the Deliverables folder** — every file is prefixed with its task number and a short, exact name matching the task list, so anything in the folder is instantly identifiable during review:
-
-```
-1_Feature-List-MVP-Scope/
-    Core_Nice_to_Have_Features.docx
-    MVP_Prioritization.pdf
-    feature_dependency_map.png
-
-2_User-Flow-Diagrams/
-    user_journey_map.png
-    main_user_journeys.png
-    Core_App_Flows.docx
-    core_app_flows_visual.png
-    Edge_Cases.pdf
-
-3_Wireframes-UI-Design/
-4_Design-System-UI-Kit/
-5_GitHub-Setup/
-6_Frontend-Backend-Skeleton/
-```
-
-Everything in Drive is reviewed, so keeping this labeling exact — task number, task name, no loose/renamed files — is what makes the submission easy to grade correctly.
-
----
-
 ## ▶️ How to Run
 
 > The project is currently distributed as complete single-file React apps. To run it locally in a standard React project:
@@ -215,20 +159,6 @@ The app will open at `http://localhost:3000`. No environment variables or API ke
 
 ---
 
-## 🖼️ Screens & Diagrams
-
-| Diagram | What it shows |
-|---|---|
-| `architecture.png` | Full system architecture — User → Web App → Simulation Engine → AI/Charts/Reports |
-| `modules.png` | The 7 main modules and their sub-features |
-| `main_user_journeys.png` | Technical user flow — every screen, step, and decision |
-| `user_journey_map.png` | Experiential user journey — goals, thoughts, feelings, pain points per stage |
-| `core_app_flows_visual.png` | All 8 internal app flows as compact step-by-step diagrams |
-| `database.png` | Planned database schema (Users / Experiments / Reports / Saved Baselines) |
-| `feature_dependency_map.png` | What has to exist before each feature can function |
-
----
-
 ## 🗺️ Roadmap
 
 | Version | Status | Highlights |
@@ -248,29 +178,6 @@ Stated openly, because judges and reviewers will ask:
 - **PDF export is a placeholder** — CSV export is fully functional; the PDF export button does not yet generate a file.
 - **Single- and two-cell scope only** — no tissue- or population-scale simulation (PhysiCell's territory, intentionally not this product's focus).
 - **Simplified biological model** — see the [About](#-about-the-project) section's transparency note.
-
----
-
-## 📌 Project Status
-
-Currently in **RedDev Phase 2 — Product Experience & Team Execution**. Phase 1 (Product Validation & Strategy) is complete — see `Business/` and `Research/` for the full documentation set.
-
----
-
-## 🤝 Contributing
-
-This project currently follows a simple workflow while the team is small:
-
-1. Create a branch from `main`: `git checkout -b feature/short-description`
-2. Commit with clear, descriptive messages (`Add drug resistance tracking to Pharmacology module`, not `update`)
-3. Open a pull request describing what changed and why
-4. Request a review before merging
-
----
-
-## 📄 License
-
-*To be determined.*
 
 ---
 
