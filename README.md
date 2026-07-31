@@ -13,7 +13,6 @@
 - [Key Features](#-key-features)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
-- [How to Run](#-how-to-run)
 - [Roadmap](#-roadmap)
 - [Known Limitations](#-known-limitations)
 
@@ -102,54 +101,38 @@ Full reasoning for each choice: `Technical/Tech_Stack_Justification.docx`.
 
 ## 📁 Project Structure
 
-```
+```text
 virtual-cell/
 │
-├── src/
-│   ├── cell_digital_twin_web_full.jsx      # Desktop app — 3-column dashboard layout
-│   ├── cell_digital_twin_mobile_full.jsx   # Mobile app — bottom tab-bar layout
-│   │
-│   ├── components/                         # (planned) shared UI components as the
-│   │                                        #  codebase is broken out of the two
-│   │                                        #  full-app files above
-│   ├── engine/                             # (planned) simulation engine module
-│   │                                        #  (single-cell + cell-to-cell logic)
-│   └── styles/                             # (planned) design tokens / theme
+├── frontend/
+│   ├── public/                (planned)
+│   ├── src/                   (planned)
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   ├── utils/
+│   │   └── assets/
+│   └── README.md
 │
-├── public/
-│   └── index.html
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── services/
+│   ├── middleware/
+│   ├── config/
+│   ├── utils/
+│   └── README.md
 │
-├── package.json
-└── README.md                                # you are here
+├── docs/
+├── assets/
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
-> The two `*_full.jsx` files currently contain the complete working application (state, simulation engine, and UI) for their respective platform. Breaking them into `components/` and `engine/` is scoped as part of ongoing Phase 2 technical work — see [Known Limitations](#-known-limitations).
-
----
-
-## ▶️ How to Run
-
-> The project is currently distributed as complete single-file React apps. To run it locally in a standard React project:
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/<your-org>/virtual-cell.git
-cd virtual-cell
-
-# 2. Install dependencies
-npm install react react-dom recharts lucide-react
-
-# 3. Add the app file
-# Place cell_digital_twin_web_full.jsx (or the mobile version)
-# as your app's root component, e.g. src/App.jsx
-
-# 4. Start the development server
-npm start
-```
-
-The app will open at `http://localhost:3000`. No environment variables or API keys are required to explore the simulator — the AI Insights Panel calls the Claude API through a managed connection.
-
-**Requirements:** Node.js 18+, npm 9+, a modern browser (Chrome/Edge/Firefox/Safari, latest 2 versions).
+> This repository currently contains the initial project skeleton. The implementation of the frontend and backend will be developed during the next development phases >
 
 ---
 
