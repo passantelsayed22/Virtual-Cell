@@ -6,10 +6,12 @@
 ---
 
 ## 🎥 Live Product Demo
-*(Drag and drop your screen recording video file here, and GitHub will automatically generate the video player link)*
 
 
-https://github.com/user-attachments/assets/94f5993c-002a-41b5-b3f0-53bdf5114806
+
+https://github.com/user-attachments/assets/d7eb00e7-e173-443b-a128-a68d1bba7e31
+
+
 
 
 
