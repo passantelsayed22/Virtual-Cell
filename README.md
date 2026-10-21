@@ -58,8 +58,8 @@ Virtual Cell aggregates complex biological datasets into an intuitive, interacti
 
 ## 🏗️ 4. System Architecture & UI/UX Design System
 
-* **Responsive Multi-Column Layout:** Built with a clean 3-column desktop layout (Setup Panel, Live Animated Cell & Metrics, Charts/Report/AI Insights) and adaptive mobile bottom-tab navigation[cite: 9, 12].
-* **Design System Tokens:** Strict adherence to module-accent color mapping (Teal for Cell, Amber for Environment, Coral for Disease, Pink for Drug, Violet for AI) ensuring high contrast and WCAG 2.1 AA accessibility compliance[cite: 11, 13].
+* **Responsive Multi-Column Layout:** Built with a clean 3-column desktop layout (Setup Panel, Live Animated Cell & Metrics, Charts/Report/AI Insights) and adaptive mobile bottom-tab navigation.
+* **Design System Tokens:** Strict adherence to module-accent color mapping (Teal for Cell, Amber for Environment, Coral for Disease, Pink for Drug, Violet for AI) ensuring high contrast and WCAG 2.1 AA accessibility compliance.
 * **State Management & Simulation Engine:** Real-time tick-by-tick calculation of ATP, Health, Mutation Rate, and Reactive Oxygen Species ($\text{ROS}$).
 
 ---
